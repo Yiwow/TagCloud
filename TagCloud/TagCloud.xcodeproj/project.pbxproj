@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141788021F1F091200F3BC8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 141788011F1F091200F3BC8E /* main.m */; };
+		141788051F1F091200F3BC8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 141788041F1F091200F3BC8E /* AppDelegate.m */; };
+		141788081F1F091200F3BC8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141788071F1F091200F3BC8E /* ViewController.m */; };
+		1417880B1F1F091200F3BC8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141788091F1F091200F3BC8E /* Main.storyboard */; };
+		1417880D1F1F091200F3BC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1417880C1F1F091200F3BC8E /* Assets.xcassets */; };
+		141788101F1F091200F3BC8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1417880E1F1F091200F3BC8E /* LaunchScreen.storyboard */; };
+		1417881A1F1F094100F3BC8E /* CloudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141788191F1F094100F3BC8E /* CloudView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		141787FD1F1F091200F3BC8E /* TagCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		141788011F1F091200F3BC8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		141788031F1F091200F3BC8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		141788041F1F091200F3BC8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		141788061F1F091200F3BC8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		141788071F1F091200F3BC8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1417880A1F1F091200F3BC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1417880C1F1F091200F3BC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1417880F1F1F091200F3BC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		141788111F1F091200F3BC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141788181F1F094100F3BC8E /* CloudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudView.h; sourceTree = "<group>"; };
+		141788191F1F094100F3BC8E /* CloudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		141787FA1F1F091200F3BC8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141787F41F1F091200F3BC8E = {
+			isa = PBXGroup;
+			children = (
+				141787FF1F1F091200F3BC8E /* TagCloud */,
+				141787FE1F1F091200F3BC8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		141787FE1F1F091200F3BC8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				141787FD1F1F091200F3BC8E /* TagCloud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		141787FF1F1F091200F3BC8E /* TagCloud */ = {
+			isa = PBXGroup;
+			children = (
+				141788171F1F092600F3BC8E /* CloudView */,
+				141788031F1F091200F3BC8E /* AppDelegate.h */,
+				141788041F1F091200F3BC8E /* AppDelegate.m */,
+				141788061F1F091200F3BC8E /* ViewController.h */,
+				141788071F1F091200F3BC8E /* ViewController.m */,
+				141788091F1F091200F3BC8E /* Main.storyboard */,
+				1417880C1F1F091200F3BC8E /* Assets.xcassets */,
+				1417880E1F1F091200F3BC8E /* LaunchScreen.storyboard */,
+				141788111F1F091200F3BC8E /* Info.plist */,
+				141788001F1F091200F3BC8E /* Supporting Files */,
+			);
+			path = TagCloud;
+			sourceTree = "<group>";
+		};
+		141788001F1F091200F3BC8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				141788011F1F091200F3BC8E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		141788171F1F092600F3BC8E /* CloudView */ = {
+			isa = PBXGroup;
+			children = (
+				141788181F1F094100F3BC8E /* CloudView.h */,
+				141788191F1F094100F3BC8E /* CloudView.m */,
+			);
+			name = CloudView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		141787FC1F1F091200F3BC8E /* TagCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141788141F1F091200F3BC8E /* Build configuration list for PBXNativeTarget "TagCloud" */;
+			buildPhases = (
+				141787F91F1F091200F3BC8E /* Sources */,
+				141787FA1F1F091200F3BC8E /* Frameworks */,
+				141787FB1F1F091200F3BC8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagCloud;
+			productName = TagCloud;
+			productReference = 141787FD1F1F091200F3BC8E /* TagCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		141787F51F1F091200F3BC8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = shang;
+				TargetAttributes = {
+					141787FC1F1F091200F3BC8E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 141787F81F1F091200F3BC8E /* Build configuration list for PBXProject "TagCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 141787F41F1F091200F3BC8E;
+			productRefGroup = 141787FE1F1F091200F3BC8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				141787FC1F1F091200F3BC8E /* TagCloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		141787FB1F1F091200F3BC8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141788101F1F091200F3BC8E /* LaunchScreen.storyboard in Resources */,
+				1417880D1F1F091200F3BC8E /* Assets.xcassets in Resources */,
+				1417880B1F1F091200F3BC8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		141787F91F1F091200F3BC8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1417881A1F1F094100F3BC8E /* CloudView.m in Sources */,
+				141788081F1F091200F3BC8E /* ViewController.m in Sources */,
+				141788051F1F091200F3BC8E /* AppDelegate.m in Sources */,
+				141788021F1F091200F3BC8E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		141788091F1F091200F3BC8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1417880A1F1F091200F3BC8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1417880E1F1F091200F3BC8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1417880F1F1F091200F3BC8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		141788121F1F091200F3BC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		141788131F1F091200F3BC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		141788151F1F091200F3BC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TagCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shang.TagCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		141788161F1F091200F3BC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TagCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shang.TagCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		141787F81F1F091200F3BC8E /* Build configuration list for PBXProject "TagCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141788121F1F091200F3BC8E /* Debug */,
+				141788131F1F091200F3BC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141788141F1F091200F3BC8E /* Build configuration list for PBXNativeTarget "TagCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141788151F1F091200F3BC8E /* Debug */,
+				141788161F1F091200F3BC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 141787F51F1F091200F3BC8E /* Project object */;
+}
